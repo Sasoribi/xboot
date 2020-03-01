@@ -11,5 +11,6 @@
       LEFT JOIN t_permission p ON p.id = rp.permission_id
       WHERE u.id = #{userId} AND p.status = 0
       ORDER BY p.sort_order ASC
-    </select>
+    </select> 
+    
 </mapper>
