@@ -11,3 +11,4 @@ xboot-logs/
 *.bak
 
 rebel.xml
+/.project
